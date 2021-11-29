@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/leeodesign/consume-api-test-stubs/issues"
   },
-  "homepage": "https://github.com/leeodesign/consume-api-test-stubs#readme"
+  "homepage": "https://github.com/leeodesign/consume-api-test-stubs#readme",
+  "devDependencies": {
+    "sinon": "^12.0.1"
+  }
 }
