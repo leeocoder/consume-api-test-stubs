@@ -12,9 +12,4 @@ class Service {
   }
 }
 
-(async () => {
-  const result = await new Service().makeRequest(
-    "https://swapi.dev/api/planets/1"
-  );
-  console.log(result);
-})();
+module.exports = Service;
